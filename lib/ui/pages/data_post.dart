@@ -68,11 +68,8 @@ class _MyTab2State extends State<MyTab2> with WidgetsBindingObserver {
         backgroundColor: Colors.white,
         body: Stack(
           children: [
-            Center(
-              child: Text(
-                "$count",
-                style: TextStyle(fontSize: 30),
-              ),
+            Row(
+              children: [Text("$count")],
             ),
             ListView(
               children: [
